@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 # tweets excluded from retweeting because of language
 # key words used in search query
-naughty_words = [" -RT", "fuck", "niger"]
+naughty_words = [" -RT", "fuck", "nigger"]
 good_words = ["rams touchdown", "touchdown rams", "td rams"]
 filter = " OR ".join(good_words)
 blacklist = " -".join(naughty_words)
