@@ -1,5 +1,4 @@
-
-
+#!/bin/bash
 
 # This bot will retweet every 5 minutes, 
 # using your search query for the 5 newest tweets.
