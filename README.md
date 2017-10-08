@@ -1,6 +1,6 @@
 H'okay so:
 
-This is a twitter retweet bot hosted on a Raspberry Pi made with Python 2.7. It retweets continually 5 tweets/every 2 minutes. The keywords I specified are "touchdown" + "Rams".
+This is a twitter retweet bot hosted on a Raspberry Pi 3 made with Python 2.7. It retweets keywords continually 5 tweets/every 2 minutes.
 
 
 To create one like it:
