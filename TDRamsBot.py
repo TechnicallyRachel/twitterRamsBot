@@ -9,8 +9,12 @@
 import tweepy, time 
 from twython import Twython, TwythonError
 from credentials import *
+
+#This logs us in to twitter using the tweepy library
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_SECRET)
+#From this api we can search tweets, create tweets, 
+# delete tweets and find twitter users.
 api = tweepy.API(auth)
 
 # tweets excluded from retweeting because of language
@@ -35,7 +39,3 @@ try:
            print e
 except TwythonError as e:
    print e
-
-
-
-
